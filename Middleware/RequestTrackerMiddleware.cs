@@ -1,6 +1,5 @@
 ﻿namespace COMP003B.Assignment2.Middleware
 {
-{
     public class RequestLoggingMiddleware
     {
         private readonly RequestDelegate _next;
@@ -17,5 +16,4 @@
             Console.WriteLine($"[Request] {context.Response.StatusCode}");
         }
     }
-}
 }

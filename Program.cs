@@ -28,7 +28,7 @@ namespace COMP003B.Assignment2
 
             app.UseStaticFiles();
 
-            app.UseMiddleware<COMP_003B.Assignmenty2.Middleware.RequestLoggingMiddleware>();
+            app.UseMiddleware<COMP_003B.Assignment2.Middleware.RequestLoggingMiddleware>();
 
             app.UseWelcomePage("/welcome");
 
