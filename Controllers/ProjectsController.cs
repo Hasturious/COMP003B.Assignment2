@@ -18,7 +18,7 @@ namespace COMP003B.Assignment2.Controllers
         }
         [HttpGet]
 
-        public IActionResult Favorite()
+        public IActionResult Ideas()
         {
             return View();
         }
